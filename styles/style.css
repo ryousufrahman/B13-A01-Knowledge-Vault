@@ -118,5 +118,67 @@ nav{
     
 }
 
+/* note section styles from here */
+.notes-section{
+    background-color:rgba(98, 115, 130, .1);
+    margin-bottom: 120px;
+}
+.notes-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 64px;
+    
+}
+.notes-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.notes-heading p{
+    color: #627382 ;
+    margin-bottom: 44px;
 
+}
+.all-note-card{
+    display: flex;
+    gap:24px ;
+    
+}
+.card{
+    background-color: white;
+    padding-top: 24px;
+    height: 300px;
+    width: 322px;
+    padding : 24px;
+    border-radius: 8px 8px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.note-icon-png{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.card img{
+    background-color: #F95555 ;
+    
+   
+    
+}
+.card h4{
+    font-size: 24px ;
+    font-weight: 600;
+    margin-top:16px ;
+    margin-bottom: 16px;
+}
+.card p{
+    color: #627382 ;
+}
 
