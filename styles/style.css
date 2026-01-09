@@ -56,7 +56,8 @@ nav{
  .hero{
     width: 100%;
     ;
-    background-image:url(../assets/hero-bg.png) ;
+    background-image:url(../assets/hero-bg.png)  ;
+    ;
     /* max-width: 1600px; */
     background-size: cover;
     background-position: center;
@@ -293,7 +294,7 @@ footer{
 }
 .footer-copy{
     text-align: center;
-    margin-top: 114px;
+
     padding-bottom: 30px;
     color: white;
 }
@@ -302,7 +303,8 @@ footer{
     font-weight: 500;
     margin-bottom: 16px;
     font-weight: 600;
-    color: white;
+    color:#FAFAFA  ;
+    
 }
 .footer-png i{
     margin-right: 10px;
@@ -319,6 +321,19 @@ footer{
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+.custom-line{
+    background-color: #627382;
+    height: 1px;
+    border: none;
+     width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hr{
+    margin-top: 114px;
+    
 }
 
 
