@@ -50,11 +50,14 @@ nav{
 }
 .btn:hover{
     background-color: maroon;
+    font-size: 18px;
 }
  /* hero section styles from here */
  .hero{
     width: 100%;
+    ;
     background-image:url(../assets/hero-bg.png) ;
+    /* max-width: 1600px; */
     background-size: cover;
     background-position: center;
     
@@ -115,6 +118,7 @@ nav{
 .hero-btn2:hover{
     background-color: maroon;
     border-color: maroon;
+    font-size: 18px;
     
 }
 
@@ -136,6 +140,7 @@ nav{
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
+    color: black;
 }
 .notes-heading p{
     color: #627382 ;
@@ -268,5 +273,52 @@ nav{
     align-items: center;
 }
 
+/* footersection styles from here */ 
+
+footer{
+   
+    background-color:#001931 ;
+    
+}
+.footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    
+    color: white;
+}
+.footer-copy{
+    text-align: center;
+    margin-top: 114px;
+    padding-bottom: 30px;
+    color: white;
+}
+.footer-social p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: white;
+}
+.footer-png i{
+    margin-right: 10px;
+    
+     font-size: 20px;
+    border-radius: 50%;
+}
+
+.footer-social{
+    padding-right: 80px;
+    
+}
+.footer-png a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 
 
